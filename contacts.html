@@ -76,7 +76,7 @@
 							</div>
 						</div>
 						<div class="header-top__right">
-							<button class="header-top__btn">
+							<button class="header-top__btn" data-modal="contactModal">
 								<span>заказать звонок</span>
 							</button>
 							<a href="" class="header-top__account">
@@ -266,7 +266,7 @@
                             <a href="tel:+7 (843) 2 111-097">+7 (843) 2 111-097</a>
                         </div>
                     </div>
-                    <button class="footer__btn">
+                    <button class="footer__btn" data-modal="contactModal">
                         <span>заказать звонок</span>
                     </button>
                 </div>
@@ -363,6 +363,56 @@
     }
 </script>
 
+
+	<div class="modal" id="contactModal">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				Закрыть
+			</button>
+			<div class="modal__content">
+				<div class="modal__left">
+					<div class="modal__title">Запросить коммерческое предложение</div>
+					<form class="modal__form form">
+						<div class="modal__form-grid form-grid">
+							<fieldset class="modal__form-group form-group">
+								<div style="font-size: 14px" class="input-title">Как к Вам обращаться?<span style="color: #F00;">*</span></div>
+								<input type="text" placeholder="">
+							</fieldset>
+							<fieldset class="modal__form-group form-group">
+								<div style="font-size: 14px" class="input-title">Ваш телефон<span style="color: #F00;">*</span></div>
+								<input type="text" placeholder="">
+							</fieldset>
+							<fieldset class="modal__form-group form-group">
+								<div style="font-size: 14px" class="input-title">Описание задачи <span style="color: #9B9B9B;">(Необязательно)</span></div>
+								<textarea></textarea>
+							</fieldset>
+							<fieldset class="modal__form-group form-group">
+								<button class="modal__form-btn form-btn btn-red">
+									<span>получить консультацию</span>
+								</button>
+							</fieldset>
+							<fieldset class="modal__form-group form-group">
+								<div class="form-info">
+									Отправляя данные, вы принимаете условия <a href="">пользовательского соглашения</a>
+								</div>
+							</fieldset>
+						</div>
+					</form>
+				</div>
+				<div class="modal__right">
+					<div class="modal__img">
+						<img src="img/modal-img.png" alt="">
+					</div>
+					<div class="modal__info">
+						<div class="modal__info-icon">
+							<img src="img/header-icon.svg" alt="">
+						</div>
+						<div class="modal__info-text">Более 10 лет на рынке безопасности</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </body>
 
