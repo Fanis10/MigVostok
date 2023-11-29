@@ -24,9 +24,30 @@
 					<li><a href="services.html">Услуги</a></li>
 					<li><a href="contacts.html">Контакты</a></li>
 					<li><a href="about.html">О компании</a></li>
+					<li><a href="administrators-account.html">Кабинет администратора</a></li>
+					<li><a href="administrators-account2.html">Кабинет администратора 2</a></li>
+					<li><a href="personal-account.html">Личный кабинет</a></li>
+					<li><a href="administrators-account3.html">Кабинет администратора 3</a></li>
+					<li><a href="administrators-account4.html">Кабинет администратора 4</a></li>
+					<li><a href="administrators-account5.html">Кабинет администратора 5</a></li>
 					<li>
 						<button style="width: 250px; height: 50px" class="btn-red" data-modal="contactModal">
 							<span>Модальное окно</span>
+						</button>
+					</li>
+					<li>
+						<button style="width: 250px; height: 50px" class="btn-red" data-modal="contactModal2">
+							<span>Модальное окно 2</span>
+						</button>
+					</li>
+					<li>
+						<button style="width: 250px; height: 50px" class="btn-red" data-modal="contactModal3">
+							<span>Модальное окно 3</span>
+						</button>
+					</li>
+					<li>
+						<button style="width: 250px; height: 50px" class="btn-red" data-modal="contactModal4">
+							<span>Модальное окно 4</span>
 						</button>
 					</li>
 				</ul>
@@ -82,7 +103,120 @@
 				</div>
 			</div>
 		</div>
-		
+		<div class="modal" id="contactModal2">
+			<div class="modal__dialog modal__dialog2">
+				<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+					Закрыть
+				</button>
+				<div class="modal__content modal__content2">
+					<div class="modal__title">Сообщение <br> пользователю №8098-35</div>
+					<form class="modal__form form">
+						<div class="modal__form-grid form-grid">
+							<fieldset class="modal__form-group form-group">
+								<div style="font-size: 14px" class="input-title">Тема сообщения<span style="color: #F00;">*</span></div>
+								<input type="text" placeholder="">
+							</fieldset>
+							<fieldset class="modal__form-group form-group">
+								<div style="font-size: 14px" class="input-title">Текст сообщения<span style="color: #F00;">*</span></div>
+								<textarea></textarea>
+							</fieldset>
+							<fieldset class="modal__form-group form-group">
+								<button class="modal__form-btn form-btn btn-red">
+									<span>Отправить</span>
+								</button>
+							</fieldset>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal" id="contactModal3">
+			<div class="modal__dialog">
+				<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+					Закрыть
+				</button>
+				<div class="modal__content">
+					<div class="modal__left">
+						<div class="modal__title">Обращение в техподдержку</div>
+						<form class="modal__form form">
+							<div class="modal__form-grid form-grid">
+								<fieldset class="modal__form-group form-group">
+									<div style="font-size: 14px" class="input-title">Как к Вам обращаться?<span style="color: #F00;">*</span></div>
+									<input type="text" placeholder="">
+								</fieldset>
+								<fieldset class="modal__form-group form-group">
+									<div style="font-size: 14px" class="input-title">Ваш телефон<span style="color: #F00;">*</span></div>
+									<input type="text" placeholder="">
+								</fieldset>
+								<fieldset class="modal__form-group form-group">
+									<div style="font-size: 14px" class="input-title">Описание вопроса<span style="color: #F00;">*</span></div>
+									<textarea></textarea>
+								</fieldset>
+								<fieldset class="modal__form-group form-group">
+									<button class="modal__form-btn form-btn btn-red">
+										<span>получить консультацию</span>
+									</button>
+								</fieldset>
+								<fieldset class="modal__form-group form-group">
+									<div class="form-info">
+										Отправляя данные, вы принимаете условия <a href="">пользовательского соглашения</a>
+									</div>
+								</fieldset>
+							</div>
+						</form>
+					</div>
+					<div class="modal__right">
+						<div class="modal__img">
+							<img src="img/modal-img.png" alt="">
+						</div>
+						<div class="modal__info">
+							<div class="modal__info-icon">
+								<img src="img/header-icon.svg" alt="">
+							</div>
+							<div class="modal__info-text">Более 10 лет на рынке безопасности</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal" id="contactModal4">
+			<div class="modal__dialog">
+				<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+					Закрыть
+				</button>
+				<div class="modal__content">
+					<div class="modal__left">
+						<div class="modal__title modal__title2">Действие договора приостановлено, обратитесь к администратору!</div>
+						<form class="modal__form form">
+							<div class="modal__form-grid form-grid">
+								<fieldset class="modal__form-group form-group">
+									<button class="modal__form-btn form-btn btn-red">
+										<span>получить консультацию</span>
+									</button>
+								</fieldset>
+								<fieldset class="modal__form-group form-group">
+									<div class="form-info">
+										Отправляя данные, вы принимаете условия <a href="">пользовательского соглашения</a>
+									</div>
+								</fieldset>
+							</div>
+						</form>
+					</div>
+					<div class="modal__right">
+						<div class="modal__img">
+							<img src="img/modal-img2.png" alt="">
+						</div>
+						<div class="modal__info">
+							<div class="modal__info-icon">
+								<img src="img/header-icon.svg" alt="">
+							</div>
+							<div class="modal__info-text">Более 10 лет на рынке безопасности</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
 	<script src="js/libs.min.js"></script>
